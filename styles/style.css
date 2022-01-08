@@ -80,10 +80,16 @@
 }
 
 .logo {
+  display: block;
   width: 183px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 1;
+}
+
+.logo:hover {
+  opacity: .5;
 }
 
 .logo_place_header {
@@ -102,11 +108,13 @@
 
 .description {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .two-columns {
   width: 80%;
-  margin: 100px auto 0 auto;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
