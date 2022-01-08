@@ -316,9 +316,6 @@
 
 .footer__columns {
   width: 90%;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -361,18 +358,19 @@
 
 .footer__column-links {
   margin: 20px 0 16px 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
   text-decoration: none;
-  display: block;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: #fff;
 }
 
-.footer__social-logo {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
