@@ -23,7 +23,8 @@
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   line-height: 96px;
   font-weight: bold;
   font-size: 102px;
@@ -34,7 +35,8 @@
 }
 
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-weight: normal;
   font-size: 18px;
@@ -115,7 +117,8 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -247,7 +250,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-weight: bold;
   font-size: 120px;
