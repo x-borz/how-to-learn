@@ -64,7 +64,7 @@
 }
 
 .header__link::after {
-  content: "→";
+  content: " →";
 }
 
 .header__main-illustration {
@@ -267,7 +267,7 @@
 }
 
 .feynman__link::after {
-  content: "→";
+  content: " →";
 }
 
 .feynman__img {
