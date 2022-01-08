@@ -7,9 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
-  color: #000;
-  /* Глобально задаю черный цвет текста. Везде, где надо иначе, переопределю в модификаторах */
 }
 
 .block_space_top {
@@ -18,10 +15,6 @@
 
 .block_space_bottom {
   margin-bottom: 100px;
-}
-
-.block_color_inverted {
-  color: #fff;
 }
 
 .header {
@@ -40,6 +33,7 @@
   line-height: 96px;
   font-weight: bold;
   font-size: 102px;
+  color: #000;
   margin: auto auto auto 64px;
   padding: 0;
   z-index: 2;
@@ -48,8 +42,9 @@
 .header__subtitle {
   width: 388px;
   line-height: 25px;
-  font-size: 18px;
   font-weight: normal;
+  font-size: 18px;
+  color: #000;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -139,6 +134,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  color: #000;
   margin: 0 0 30px 0;
   padding: 0;
 }
@@ -151,6 +147,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+  color: #000;
 }
 
 .digits {
@@ -167,18 +164,28 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+  color: #000;
   z-index: 1;
+}
+
+.section-title_theme_dark {
+  color: #fff;
 }
 
 .section-subtitle {
   width: 60%;
   margin: 0;
-  padding: 0;
+  padding: 20px 0 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   text-align: center;
+  color: #000;
   z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
 }
 
 .table {
@@ -191,6 +198,10 @@
   width: 1100px;
   justify-content: space-between;
   z-index: 1;
+}
+
+.table_theme_dark {
+
 }
 
 .table__cell {
@@ -210,18 +221,24 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  color: #000;
+}
+
+.table__heading_theme_dark {
+  color: #fff;
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: #000;
 }
 
-.section_space_bottom {
-  margin-bottom: 20px;
+.table__text_theme_dark {
+  color: #fff;
 }
 
 .feynman {
@@ -241,6 +258,7 @@
   margin: 100px 0 0 0;
   padding: 0;
   text-align: center;
+  color: #000;
   z-index: 1;
 }
 
@@ -251,6 +269,7 @@
   margin: 70px 0 0 0;
   padding: 0;
   text-align: center;
+  color: #000;
   z-index: 1;
 }
 
@@ -346,6 +365,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #fff;
 }
 
 .footer__column-heading {
@@ -354,6 +374,7 @@
   font-weight: bold;
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 
 .footer__column-links {
