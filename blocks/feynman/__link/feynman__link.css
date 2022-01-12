@@ -1,0 +1,15 @@
+.feynman__link {
+  line-height: 51px;
+  font-weight: normal;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.feynman__link::after {
+  content: " →";
+}

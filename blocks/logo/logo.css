@@ -1,0 +1,13 @@
+.logo {
+  display: block;
+  width: 183px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  transition: opacity .8s
+}
+
+.logo:hover {
+  opacity: .5;
+}
