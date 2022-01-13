@@ -4,4 +4,9 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  transition: box-shadow .5s
+}
+
+.cards__image:hover {
+  box-shadow: 10px 0 10px black;
 }
