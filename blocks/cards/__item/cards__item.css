@@ -1,8 +1,8 @@
-.cards_item {
+.cards__item {
   margin-right: 100px;
   width: 240px;
 }
 
-.cards_item:nth-last-of-type(3n) {
+.cards__item:nth-last-of-type(3n) {
   margin-right: 0
 }
