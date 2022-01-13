@@ -73,3 +73,6 @@
 @import url(../blocks/resources/__logo/_title/resources__logo_title_n1.css);
 @import url(../blocks/resources/__logo/_title/resources__logo_title_polka.css);
 @import url(../blocks/resources/__logo/_title/resources__logo_title_strelka.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
