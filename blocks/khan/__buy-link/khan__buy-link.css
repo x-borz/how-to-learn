@@ -5,7 +5,7 @@
   color: #2f80ed;
   text-decoration: none;
   opacity: 1;
-  transition: opacity .8s
+  transition: opacity .8s;
 }
 
 .khan__buy-link::after {
