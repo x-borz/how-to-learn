@@ -8,6 +8,7 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 1;
+  opacity: 1;
   transition: opacity .8s
 }
 
